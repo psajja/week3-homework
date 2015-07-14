@@ -1,0 +1,7 @@
+<%= form_tag("/places/#{@place.id}/update", method: "get") do%> 
+  <p>Title : <%= text_field_tag('title',@place.title)%></p>
+  <p>Photo Url  : <%= text_field_tag('photo_url',@place.photo_url)%></p>
+  <p>Price : <%= text_field_tag('price',@place.admission_price)%></p>
+  <p>Description : <%= text_field_tag('description',@place.description)%></p>
+  <p><input type='submit'></p>
+ <% end%> 

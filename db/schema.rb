@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 0) do
     t.string  "photo_url"
     t.integer "admission_price"
     t.string  "description"
-    t.string  "place_key"
   end
 
 end

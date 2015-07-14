@@ -4,7 +4,6 @@ Place
   photo_url: string
   admission_price: integer
   description: string
-  place_key: string
 
 # Example table for a typical Book model.
 #
