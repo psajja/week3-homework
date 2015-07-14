@@ -1,0 +1,10 @@
+ <h2><%= @place.title %></h2>
+<p>
+  Admission Price : $
+  <%= @place.admission_price %>
+</p>
+
+ <%= image_tag(@place.photo_url, :style => "width:375px;height:375px;")%>
+<p>
+  <%= @place.description %>
+</p>
