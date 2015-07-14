@@ -7281,3 +7281,373 @@ Processing by PlacesController#show as HTML
   [1m[35mPlace Load (0.4ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1
   Rendered places/show.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 15:52:51 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[36mPlace Load (2.0ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 100ms (Views: 80.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 15:53:10 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[35mPlace Load (2.0ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 95ms (Views: 90.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 15:53:11 -0500
+Processing by PlacesController#index as HTML
+  [1m[36mPlace Load (0.2ms)[0m  [1mSELECT "places".* FROM "places"[0m
+  Rendered places/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 15:54:33 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[35mPlace Load (0.6ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 37.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:00:27 -0500
+Processing by PlacesController#index as HTML
+  [1m[36mPlace Load (1.9ms)[0m  [1mSELECT "places".* FROM "places"[0m
+  Rendered places/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 117ms (Views: 103.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 16:00:29 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[35mPlace Load (0.3ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 16:00:45 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[36mPlace Load (0.5ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 69ms (Views: 66.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 16:02:10 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[35mPlace Load (2.7ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 35.3ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 16:02:45 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[36mPlace Load (2.6ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 51ms (Views: 46.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 16:02:59 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[35mPlace Load (2.2ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 43.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 16:03:49 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[36mPlace Load (2.1ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 51ms (Views: 47.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 16:04:23 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[35mPlace Load (2.4ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 42ms (Views: 37.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 16:04:35 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[36mPlace Load (1.9ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 41ms (Views: 37.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:04:56 -0500
+Processing by PlacesController#index as HTML
+  [1m[35mPlace Load (0.5ms)[0m  SELECT "places".* FROM "places"
+  Rendered places/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/places/49" for 127.0.0.1 at 2015-07-14 16:04:58 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"49"}
+  [1m[36mPlace Load (0.2ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 49 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/49" for 127.0.0.1 at 2015-07-14 16:05:11 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"49"}
+  [1m[35mPlace Load (2.7ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 49 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 35.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/places/48" for 127.0.0.1 at 2015-07-14 16:05:14 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"48"}
+  [1m[36mPlace Load (0.2ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 48 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 16:05:16 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[35mPlace Load (0.3ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:06:11 -0500
+Processing by PlacesController#index as HTML
+  [1m[36mPlace Load (0.6ms)[0m  [1mSELECT "places".* FROM "places"[0m
+  Rendered places/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 55ms (Views: 52.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 16:06:12 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[35mPlace Load (0.3ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/places/47" for 127.0.0.1 at 2015-07-14 16:07:12 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[36mPlace Load (2.3ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 47 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 53ms (Views: 47.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:07:14 -0500
+Processing by PlacesController#index as HTML
+  [1m[35mPlace Load (0.2ms)[0m  SELECT "places".* FROM "places"
+  Rendered places/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 47ms (Views: 44.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/48" for 127.0.0.1 at 2015-07-14 16:07:15 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"48"}
+  [1m[36mPlace Load (0.2ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 48 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/49" for 127.0.0.1 at 2015-07-14 16:07:18 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"49"}
+  [1m[35mPlace Load (0.2ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 49 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/49" for 127.0.0.1 at 2015-07-14 16:07:52 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"49"}
+  [1m[36mPlace Load (0.5ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 49 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/places/49" for 127.0.0.1 at 2015-07-14 16:08:16 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"49"}
+  [1m[35mPlace Load (2.5ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 49 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 46ms (Views: 41.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:08:22 -0500
+Processing by PlacesController#index as HTML
+  [1m[36mPlace Load (0.2ms)[0m  [1mSELECT "places".* FROM "places"[0m
+  Rendered places/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 43ms (Views: 41.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/48" for 127.0.0.1 at 2015-07-14 16:08:24 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"48"}
+  [1m[35mPlace Load (0.2ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 48 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/49" for 127.0.0.1 at 2015-07-14 16:08:26 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"49"}
+  [1m[36mPlace Load (0.2ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 49 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (1.7ms)[0m  DELETE FROM "places"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "places" ("admission_price", "description", "photo_url", "title") VALUES (?, ?, ?, ?)  [["admission_price", 10], ["description", "The Charminar was constructed in the intersection of the historical trade route that connects the markets of Golconda with the port city of Masulipatnam.[13]:195 The Old City of Hyderabad was designed with Charminar as its centerpiece.[14] The city was spread around the Charminar in four different quadrants and chambers, seggregated according to the established settlements. Towards the north of Charminar is the Char Kaman, or four gateways, constructed in the cardinal directions.[7][13] [15] Mir Momin Astarabadi, Qutb Shah's prime minister, played a leading role in preparing the layout plan for the Charminar along with that of the new capital city, Hyderabad.[16]:170 Additional eminent architects from Persia were also invited to develop the city plan. The structure itself was intended to serve as a Mosque and Madraasa. It is of Indo-Islamic architecture style, incorporating Persian architectural elements."], ["photo_url", "http://3.bp.blogspot.com/-VW8_PcOFfpk/UfJvjztjYjI/AAAAAAAAAfU/4wrx_NNwGJ0/s1600/Charminar+night+view.jpg"], ["title", "Charminar"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "places" ("admission_price", "description", "photo_url", "title") VALUES (?, ?, ?, ?)[0m  [["admission_price", 20], ["description", "Hussain Sagar is a lake in Hyderabad, Telangana, India, built by Hazrat Hussain Shah Wali in 1562, during the rule of Ibrahim Quli Qutub Shah. It is spread across an area of 5.7 square kilometers and is fed by River Musi. A large monolithic statue of the Gautama Buddha, erected in 1992 stands in an island in the middle of the lake.[1] Maximum depth of the lake is 32 feet."], ["photo_url", "http://hyderabadattractions.com/wp-content/uploads/2012/10/hussain.jpg"], ["title", "Hussain Sagar"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "places" ("admission_price", "description", "photo_url", "title") VALUES (?, ?, ?, ?)  [["admission_price", 5], ["description", "The Taj Mahal is a white marble mausoleum located on the southern bank of Yamuna River in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favorite wife of three, Mumtaz Mahal."], ["photo_url", "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2014/10/Taj-Mahal.jpg"], ["title", "Taj Mahal"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "places" ("admission_price", "description", "photo_url", "title") VALUES (?, ?, ?, ?)[0m  [["admission_price", 15], ["description", "Golden Temple is the holiest Sikh gurdwara located in the city of Amritsar, Punjab, India. The city was founded in 1574 by the fourth Sikh guru, Guru Ram Das. The Harmandir Sahib was designed by the fifth guru, Guru Arjan, who had the cornerstone laid by the Muslim Sufi saint Sai Hazrat Mian Mir on 28 December 1588. Guru Arjan completed the Adi Granth, the holy scripture of Sikhism, in 1604 and installed it in the gurdwara "], ["photo_url", "http://www.thehistoryhub.com/wp-content/uploads/2014/04/Golden-Temple-Night-View.jpg"], ["title", "Golden Temple"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "places" ("admission_price", "description", "photo_url", "title") VALUES (?, ?, ?, ?)  [["admission_price", 6], ["description", "The Agra Fort is a UNESCO World Heritage site located in Agra, Uttar Pradesh, India. It is about 2.5 km northwest of its more famous sister monument, the Taj Mahal. The fort can be more accurately described as a walled city."], ["photo_url", "https://msdnholidays.files.wordpress.com/2011/02/253408113_083c7e1318_z.jpg"], ["title", "Agra Fort"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:08:51 -0500
+Processing by PlacesController#index as HTML
+  [1m[36mPlace Load (1.9ms)[0m  [1mSELECT "places".* FROM "places"[0m
+  Rendered places/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 131ms (Views: 87.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/places/53" for 127.0.0.1 at 2015-07-14 16:08:54 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"53"}
+  [1m[35mPlace Load (0.3ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 53 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 59ms (Views: 49.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/places/53/edit" for 127.0.0.1 at 2015-07-14 16:08:57 -0500
+Processing by PlacesController#edit as HTML
+  Parameters: {"id"=>"53"}
+  [1m[36mPlace Load (0.2ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 53 LIMIT 1[0m
+  Rendered places/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/53/update?utf8=%E2%9C%93&title=Charminar&photo_url=http%3A%2F%2F3.bp.blogspot.com%2F-VW8_PcOFfpk%2FUfJvjztjYjI%2FAAAAAAAAAfU%2F4wrx_NNwGJ0%2Fs1600%2FCharminar%2Bnight%2Bview.jpg&price=5&description=The+Charminar+was+constructed+in+the+intersection+of+the+historical+trade+route+that+connects+the+markets+of+Golconda+with+the+port+city+of+Masulipatnam.%5B13%5D%3A195+The+Old+City+of+Hyderabad+was+designed+with+Charminar+as+its+centerpiece.%5B14%5D+The+city+was+spread+around+the+Charminar+in+four+different+quadrants+and+chambers%2C+seggregated+according+to+the+established+settlements.+Towards+the+north+of+Charminar+is+the+Char+Kaman%2C+or+four+gateways%2C+constructed+in+the+cardinal+directions.%5B7%5D%5B13%5D+%5B15%5D+Mir+Momin+Astarabadi%2C+Qutb+Shah%27s+prime+minister%2C+played+a+leading+role+in+preparing+the+layout+plan+for+the+Charminar+along+with+that+of+the+new+capital+city%2C+Hyderabad.%5B16%5D%3A170+Additional+eminent+architects+from+Persia+were+also+invited+to+develop+the+city+plan.+The+structure+itself+was+intended+to+serve+as+a+Mosque+and+Madraasa.+It+is+of+Indo-Islamic+architecture+style%2C+incorporating+Persian+architectural+elements." for 127.0.0.1 at 2015-07-14 16:09:01 -0500
+Processing by PlacesController#update as HTML
+  Parameters: {"utf8"=>"✓", "title"=>"Charminar", "photo_url"=>"http://3.bp.blogspot.com/-VW8_PcOFfpk/UfJvjztjYjI/AAAAAAAAAfU/4wrx_NNwGJ0/s1600/Charminar+night+view.jpg", "price"=>"5", "description"=>"The Charminar was constructed in the intersection of the historical trade route that connects the markets of Golconda with the port city of Masulipatnam.[13]:195 The Old City of Hyderabad was designed with Charminar as its centerpiece.[14] The city was spread around the Charminar in four different quadrants and chambers, seggregated according to the established settlements. Towards the north of Charminar is the Char Kaman, or four gateways, constructed in the cardinal directions.[7][13] [15] Mir Momin Astarabadi, Qutb Shah's prime minister, played a leading role in preparing the layout plan for the Charminar along with that of the new capital city, Hyderabad.[16]:170 Additional eminent architects from Persia were also invited to develop the city plan. The structure itself was intended to serve as a Mosque and Madraasa. It is of Indo-Islamic architecture style, incorporating Persian architectural elements.", "id"=>"53"}
+  [1m[35mPlace Load (0.2ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 53 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "places" SET "admission_price" = ? WHERE "places"."id" = 53  [["admission_price", 5]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/places/53
+Completed 302 Found in 10ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/places/53" for 127.0.0.1 at 2015-07-14 16:09:01 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"53"}
+  [1m[35mPlace Load (0.3ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 53 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 62ms (Views: 59.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:09:04 -0500
+Processing by PlacesController#index as HTML
+  [1m[36mPlace Load (0.3ms)[0m  [1mSELECT "places".* FROM "places"[0m
+  Rendered places/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/places/55" for 127.0.0.1 at 2015-07-14 16:09:05 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"55"}
+  [1m[35mPlace Load (0.2ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 55 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:09:20 -0500
+Processing by PlacesController#index as HTML
+  [1m[36mPlace Load (0.2ms)[0m  [1mSELECT "places".* FROM "places"[0m
+  Rendered places/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/57" for 127.0.0.1 at 2015-07-14 16:09:21 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"57"}
+  [1m[35mPlace Load (0.2ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 57 LIMIT 1
+  Rendered places/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/57/edit" for 127.0.0.1 at 2015-07-14 16:09:25 -0500
+Processing by PlacesController#edit as HTML
+  Parameters: {"id"=>"57"}
+  [1m[36mPlace Load (0.2ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 57 LIMIT 1[0m
+  Rendered places/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:09:34 -0500
+Processing by PlacesController#index as HTML
+  [1m[35mPlace Load (0.2ms)[0m  SELECT "places".* FROM "places"
+  Rendered places/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/57/delete" for 127.0.0.1 at 2015-07-14 16:09:37 -0500
+Processing by PlacesController#delete as HTML
+  Parameters: {"id"=>"57"}
+  [1m[36mPlace Load (0.2ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 57 LIMIT 1[0m
+  [1m[35mSQL (2.5ms)[0m  DELETE FROM "places" WHERE "places"."id" = 57
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:09:37 -0500
+Processing by PlacesController#index as HTML
+  [1m[36mPlace Load (0.3ms)[0m  [1mSELECT "places".* FROM "places"[0m
+  Rendered places/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (1.2ms)[0m  DELETE FROM "places"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "places" ("admission_price", "description", "photo_url", "title") VALUES (?, ?, ?, ?)  [["admission_price", 10], ["description", "The Charminar was constructed in the intersection of the historical trade route that connects the markets of Golconda with the port city of Masulipatnam.[13]:195 The Old City of Hyderabad was designed with Charminar as its centerpiece.[14] The city was spread around the Charminar in four different quadrants and chambers, seggregated according to the established settlements. Towards the north of Charminar is the Char Kaman, or four gateways, constructed in the cardinal directions.[7][13] [15] Mir Momin Astarabadi, Qutb Shah's prime minister, played a leading role in preparing the layout plan for the Charminar along with that of the new capital city, Hyderabad.[16]:170 Additional eminent architects from Persia were also invited to develop the city plan. The structure itself was intended to serve as a Mosque and Madraasa. It is of Indo-Islamic architecture style, incorporating Persian architectural elements."], ["photo_url", "http://3.bp.blogspot.com/-VW8_PcOFfpk/UfJvjztjYjI/AAAAAAAAAfU/4wrx_NNwGJ0/s1600/Charminar+night+view.jpg"], ["title", "Charminar"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "places" ("admission_price", "description", "photo_url", "title") VALUES (?, ?, ?, ?)[0m  [["admission_price", 20], ["description", "Hussain Sagar is a lake in Hyderabad, Telangana, India, built by Hazrat Hussain Shah Wali in 1562, during the rule of Ibrahim Quli Qutub Shah. It is spread across an area of 5.7 square kilometers and is fed by River Musi. A large monolithic statue of the Gautama Buddha, erected in 1992 stands in an island in the middle of the lake.[1] Maximum depth of the lake is 32 feet."], ["photo_url", "http://hyderabadattractions.com/wp-content/uploads/2012/10/hussain.jpg"], ["title", "Hussain Sagar"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "places" ("admission_price", "description", "photo_url", "title") VALUES (?, ?, ?, ?)  [["admission_price", 5], ["description", "The Taj Mahal is a white marble mausoleum located on the southern bank of Yamuna River in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favorite wife of three, Mumtaz Mahal."], ["photo_url", "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2014/10/Taj-Mahal.jpg"], ["title", "Taj Mahal"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "places" ("admission_price", "description", "photo_url", "title") VALUES (?, ?, ?, ?)[0m  [["admission_price", 15], ["description", "Golden Temple is the holiest Sikh gurdwara located in the city of Amritsar, Punjab, India. The city was founded in 1574 by the fourth Sikh guru, Guru Ram Das. The Harmandir Sahib was designed by the fifth guru, Guru Arjan, who had the cornerstone laid by the Muslim Sufi saint Sai Hazrat Mian Mir on 28 December 1588. Guru Arjan completed the Adi Granth, the holy scripture of Sikhism, in 1604 and installed it in the gurdwara "], ["photo_url", "http://www.thehistoryhub.com/wp-content/uploads/2014/04/Golden-Temple-Night-View.jpg"], ["title", "Golden Temple"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "places" ("admission_price", "description", "photo_url", "title") VALUES (?, ?, ?, ?)  [["admission_price", 6], ["description", "The Agra Fort is a UNESCO World Heritage site located in Agra, Uttar Pradesh, India. It is about 2.5 km northwest of its more famous sister monument, the Taj Mahal. The fort can be more accurately described as a walled city."], ["photo_url", "https://msdnholidays.files.wordpress.com/2011/02/253408113_083c7e1318_z.jpg"], ["title", "Agra Fort"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:09:56 -0500
+Processing by PlacesController#index as HTML
+  [1m[36mPlace Load (1.1ms)[0m  [1mSELECT "places".* FROM "places"[0m
+  Rendered places/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 111ms (Views: 75.9ms | ActiveRecord: 1.4ms)
