@@ -7651,3 +7651,26 @@ Processing by PlacesController#index as HTML
   [1m[36mPlace Load (1.1ms)[0m  [1mSELECT "places".* FROM "places"[0m
   Rendered places/index.html.erb within layouts/application (9.2ms)
 Completed 200 OK in 111ms (Views: 75.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-14 16:10:37 -0500
+Processing by PlacesController#index as HTML
+  [1m[35mPlace Load (0.4ms)[0m  SELECT "places".* FROM "places"
+  Rendered places/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/places/58" for 127.0.0.1 at 2015-07-14 16:10:38 -0500
+Processing by PlacesController#show as HTML
+  Parameters: {"id"=>"58"}
+  [1m[36mPlace Load (0.2ms)[0m  [1mSELECT  "places".* FROM "places"  WHERE "places"."id" = 58 LIMIT 1[0m
+  Rendered places/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 46ms (Views: 39.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/places/58/edit" for 127.0.0.1 at 2015-07-14 16:10:45 -0500
+Processing by PlacesController#edit as HTML
+  Parameters: {"id"=>"58"}
+  [1m[35mPlace Load (0.2ms)[0m  SELECT  "places".* FROM "places"  WHERE "places"."id" = 58 LIMIT 1
+  Rendered places/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.2ms)
